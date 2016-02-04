@@ -23,7 +23,6 @@ var env = process.env.NODE_ENV || 'development';
 /**
  * Routes
  */
-// app.get('*', function(req, res) {
 app.get('/', routes.index);
 
 // start server
