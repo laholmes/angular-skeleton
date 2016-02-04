@@ -20,7 +20,11 @@ jasmine
 
 tslint
 
-wrotetsconfig, gulpfile stubs, express stub with routing
+
+setup:
+
+tsconfig, gulpfile stubs, express stub with routing
+
 basic angular module bootstrapping and routing in app.main.js
 
 gulp serve to spin up a local server instance
