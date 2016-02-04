@@ -3,7 +3,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index');
+   res.sendFile(__dirname + '/index.html');
 };
 
 exports.partials = function (req, res) {

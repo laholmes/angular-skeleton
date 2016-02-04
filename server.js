@@ -24,9 +24,7 @@ var env = process.env.NODE_ENV || 'development';
  * Routes
  */
 // app.get('*', function(req, res) {
-app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
-});
+app.get('/', routes.index);
 
 // start server
 http.createServer(app).listen(app.get('port'), function () {
