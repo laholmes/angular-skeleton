@@ -9,16 +9,14 @@
 
 var $html = angular.element(document.getElementsByTagName('html')[0]);
 angular.element().ready(function() {
-    // bootstrap the app manually
     angular.bootstrap(document, ['app']);
 });
         
-	angular.module('app', ['ui.router'])
-        .config(['$stateProvider', function($stateProvider) {
-            // Now set up the states
-            $stateProvider.state('home', {
-                url: '/home',
-                templateUrl: 'home/home.html'
-            });
-	   }]);
-
+angular.module('app', ['ui.router'])
+    .config(['$stateProvider', function($stateProvider) {
+        // Now set up the states
+        $stateProvider.state('home', {
+            url: '/home',
+            templateUrl: 'home/home.html'
+        });
+    }]);
