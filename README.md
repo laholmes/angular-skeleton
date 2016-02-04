@@ -21,6 +21,8 @@ jasmine
 tslint
 
 
+setup:
+
 tsconfig, gulpfile stubs, express stub with routing
 
 basic angular module bootstrapping and routing in app.main.js
