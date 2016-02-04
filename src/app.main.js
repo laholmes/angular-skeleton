@@ -16,7 +16,7 @@ angular.module('app', ['ui.router'])
     .config(['$stateProvider', function($stateProvider) {
         // Now set up the states
         $stateProvider.state('home', {
-            url: '/home',
-            templateUrl: 'home/home.html'
+            url: '',
+            templateUrl: 'src/home/home.html'
         });
     }]);
