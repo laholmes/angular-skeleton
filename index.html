@@ -1,16 +1,11 @@
 <!doctype html>
-<html ng-app="myApp">
+<html>
 <head>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
-    <script src="js/angular-ui-router.min.js"></script>
-    <script>
-        var myApp = angular.module('myApp', ['ui.router']);
-        // For Component users, it should look like this:
-        //var myApp = angular.module('myApp', [require('angular-ui-router')]);
-    </script>
-    ...
+    <script src="angular/angular.js"></script>
+    <script src="angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="src/app.main.js"></script>
 </head>
 <body>
-    ...
+     <div ui-view></div>
 </body>
 </html>

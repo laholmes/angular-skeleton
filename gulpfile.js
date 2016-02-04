@@ -11,7 +11,7 @@ gulp.task('compile', function() {
 });
  
 gulp.task('serve', function () { 
-    server.run(['app.js']);
+    server.run(['server.js']);
   
     gulp.watch(['src/**/*.html'], server.notify);
     gulp.watch(['src/styles/**/*.scss'], ['styles:scss']);
@@ -22,5 +22,5 @@ gulp.task('serve', function () {
  
     // gulp.watch(['src/scripts/**/*.js'], ['jshint']);
     gulp.watch(['src/images/**/*'], server.notify);
-    gulp.watch(['app.js', 'routes/**/*.js'], [server.run]);
+    gulp.watch(['server.js', 'routes/**/*.js'], [server.run]);
 });
