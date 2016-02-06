@@ -1,11 +1,13 @@
-var express = require('express'),
-  bodyParser = require('body-parser'),
-  methodOverride = require('method-override'),
-  errorHandler = require('error-handler'),
-  morgan = require('morgan'),
-  routes = require('./routes'),
-  http = require('http'),
-  path = require('path');
+const require = function(input: string) {};
+
+const express: any = require('express');
+const bodyParser: any = require('body-parser');
+const methodOverride: any = require('method-override');
+const errorHandler: any = require('error-handler');
+const morgan: any = require('morgan');
+const routes: any = require('./routes');
+const http: any = require('http');
+const path: any = require('path');
  
 var app = module.exports = express();
 
