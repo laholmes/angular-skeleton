@@ -7,9 +7,10 @@
         "preserveConstEnums": true,
         "sourceMap": true,
         "experimentalDecorators": true,
-        "out": "./release",
-        "exclude": [
-            "node_modules"
-        ]
-    }
+        "out": "output.js"
+    },
+    "exclude": [
+        "node_modules",
+        "typings"
+    ]
 }
