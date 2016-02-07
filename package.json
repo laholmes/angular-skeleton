@@ -33,6 +33,7 @@
     "tslint": "^3.3.0"
   },
   "devDependencies": {
+    "gulp-minify": "0.0.5",
     "gulp-sass": "^2.2.0",
     "gulp-tslint": "^4.3.1",
     "gulpclass": "0.0.8",
