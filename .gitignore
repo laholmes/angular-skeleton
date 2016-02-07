@@ -1,3 +1,6 @@
 node_modules
 *.js
+!gulpfile.js
+!server.js
 release
+typings
